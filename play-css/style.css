@@ -1,0 +1,507 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'kumbh sans' ,sans-serif;
+}
+.apps3{
+    width: 200px;
+    
+}
+.logo-box {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    /* margin-right: 10px; */
+    cursor: pointer;
+    justify-content: center;
+    width: 300px;
+    height: 100%;
+    line-height: 70px;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 80px;
+    line-height: 70px;
+}
+.google{
+    color:#5f6368;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+  
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    height: 70px;
+    position: sticky;
+    background-color: white;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    justify-content:left;
+    align-items: center;
+    display: flex;
+   box-shadow:#5f6368 4px 4px 10px;
+}
+.navdiv{
+      display: flex;
+      align-items: center;
+}
+li {
+    cursor: pointer;
+    list-style: none;
+    padding: 13px;
+   
+}
+a:active {
+    border-bottom: 3px solid rgb(63, 203, 63);
+  }
+a:hover{
+    transition: 1.2s;
+  
+}
+
+a{  font-size: large;
+    color: black;
+    text-decoration: none;
+    /* width: 100px;
+    height: 100%;
+    line-height: 70px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a:hover{
+    transition: 1.3s;
+    color: black;  
+    /* color:  rgb(63, 203, 63); */
+    border-bottom: 3px solid rgb(63, 203, 63);
+}
+.profile{
+    cursor: pointer;
+    border-radius: 15px;
+}
+.icon-box{
+    margin-top: 20px;
+    display: inline-block;
+   margin-left: 54px;
+}
+.iconbox:hover{
+    transition: 1.3s;
+  background: rgba(95, 99, 104, .3);
+}
+.iconbox1:hover{
+    transition: 1.3s;
+  background: rgba(95, 99, 104, .3);
+}
+.icons{
+    margin-top: 20px;
+    
+}
+.iconbox1 i{
+    border: none;
+
+}
+.iconbox  i{
+    border: none;
+}
+.iconbox1{
+    width: 180px;
+    font-size:20px;
+    background: #fff;
+    border: 1px solid;
+    border-radius: 14px;
+    height: 30px;
+    color: #5f6368;
+    cursor: pointer;
+}
+.iconbox {
+
+    font-size:20px;
+    background: #fff;
+    border: 1px solid;
+    border-radius: 14px;
+    width: 130px;
+    height: 30px;
+    color: #5f6368;
+    cursor: pointer;
+}
+.navfont{
+    border-collapse: collapse;
+    padding: 0px;
+     margin-left: 00px; 
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+
+i{
+    border: 1px solid;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 4px;
+    color: gray;
+
+}
+section{
+    margin-left: 38px;
+    margin-right: 38px;
+  
+}
+.center{
+    vertical-align: top;
+    padding: 10px;
+    
+}
+.header{
+    color: #5f6368;
+    margin-bottom: 0px;
+    display: block;
+}
+.hello{
+    margin-top: 20px;
+}
+.header1{
+    font-size: 23px;
+    display: block;
+}
+.gamebox{
+    margin-top: 30px;
+   
+}
+.game:hover{
+    border-radius: 4px;
+    transition: 1.2s;
+    box-shadow: #5f6368 4px 4px 10px;
+}
+.game{
+    display: inline-block;
+    padding: 7px; 
+}
+.game-img{
+    border-radius: 4px;
+    cursor: pointer;
+    height: 190px;
+    width: 340px;
+}
+.picture2{
+    border-radius: 6px;
+   height: 50px;
+   display: inline-block;
+}
+.tittle{
+    margin-top: 15px;
+    display: inline-block;
+   
+}
+.tittle-name{
+    color: rgb(32, 33, 36);
+    display: block;
+    padding-left: 15px;
+}
+.container2{
+    margin-top: 50px;
+}
+hr{
+    width: 80%;
+    margin-left: 150px;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+footer{
+    margin-left: 20px;
+    margin-right:20px ;
+}
+.span-foot{
+    cursor: pointer;
+ padding: 6px;
+ margin-left: 25px;
+}
+.foot1{
+   display: inline-block;
+   vertical-align: top;
+}
+.span-foot1{
+    padding: 6px;
+    cursor: pointer;
+    
+}
+.foot2{
+    margin-left: 200px;
+   display: inline-block;
+   vertical-align: top;
+}
+.footer-box{
+    margin-bottom: 30px;
+}
+.footer-end{
+margin-left: 30px;
+
+}
+.span-call{
+    cursor: pointer;
+    padding: 10px;
+}
+.cardbox img{
+    width: 400px;
+}
+.cardbox:hover{
+    transition: 1.2s;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: #5f6368 5px 5px 10px;
+}
+.cardbox{
+    align-items: center;
+    display: inline-block;
+    padding: 10px;
+}
+.cards-container{
+    margin-left: 100px;
+    margin-top: 10px;
+    display: block;
+}
+.sidetop{
+    margin-top: 25px;
+    color: #5f6368;
+    margin-left: 30px;
+    font-size: 22px;
+
+}
+.btndiv{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.btn:hover{
+    background: rgba(95, 99, 104,.3);
+   
+}
+.btn{
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #5f6368;
+    color: #5f6368;
+    padding: 10px;
+    width: 100px;
+    border-radius: 50px;
+}
+.side{
+    border: 1px solid rgb(218, 203, 203) ;
+    margin-top: 0px;
+    border-radius:12px ;
+    margin-left: 20px;
+    width: 55px;
+    display: inline-block;
+}
+.appblock:hover{
+    transition: 1.2s;
+    border-radius: 10px;
+    box-shadow: #5f6368 5px 5px 10px;
+}
+.appline{
+    width: 430px;
+    padding: 15px;
+    cursor: pointer;
+    margin-top: 25px;
+    display: inline-block;
+}
+.h4div{
+    vertical-align: top;
+    display: inline-block;
+    padding: 10px;
+}
+.appblock{
+    padding: 10px;
+}
+.appwordbox{
+    
+    display: inline-block;
+}
+.appword{
+    color: #5f6368;
+    display: block;
+    margin-left: 10px;
+}
+.holder{
+ 
+    border-radius: 7px;
+}
+.apphorizon{
+    display: block;
+}
+
+.appcard{
+    cursor: pointer;
+    margin-top: 22px;
+    display: inline-block;
+}
+.appcardimg{
+    margin-top: 10px;
+    margin-left: 29px;
+    width: 140px;
+    border-radius: 20px;
+    border: 1px solid rgb(218, 203, 203);
+}
+.appsppanbox{
+  
+    display: inline-block;
+}
+.appspan{
+    display: block;
+    margin-left: 29px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #5f6368;
+
+}
+.flexone{
+    height:80vh ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.longimg{
+    margin-top: 28px;
+    width: 100%;
+}
+.long{
+   
+    background-size: contain;
+    height: 340px;
+    background-repeat: no-repeat;
+}
+.place{
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.hand{
+    display: block;
+    margin-bottom: 180px;
+}
+.hand2{
+   width: 160vh;
+   display: flex;
+   height: 250px;
+  
+}
+.hand3{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 60%;
+    height: 364px;
+    background: #1affff;
+}
+.flexfix{
+    border-bottom-right-radius:10px ;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 364px;
+}
+.hand4{
+   
+    height: 400px;
+    width: 60%;
+    background-repeat: no-repeat;
+   
+}
+.call{
+    margin-left: 50px;
+    padding-top: 60px;
+    display: block;
+    font-size: 35px;
+}
+.call1{
+    margin-left: 50px;
+    display: block;
+    font-size: 35px;
+}
+.xavi{
+    display: block;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 28px;
+}
+.another{
+    margin-top: 70px;
+}
+.hipic{
+    width: 60px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.hibox{
+    display: inline-block;
+}
+.hiword{
+    vertical-align: top;
+    display: inline-block;
+    /* margin-right: 10px; */
+   
+}
+.hispan{
+    padding-top: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    display: block;
+}
+.hispan1{
+    padding-top: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    display: block;
+}
+.install{
+    margin-left: 140px;
+    display: inline-block;
+    vertical-align: top;
+    background: #27dede;
+    border: 1px solid;
+    padding-left: 17px;
+    padding-right: 17px;
+    border-radius: 5px;
+    padding-top:8px ;
+    padding-bottom: 8px;
+}
+.install:hover{
+    transition: 1.2s;
+    background: #389090;
+    cursor: pointer;
+}
+.wew{
+    margin-left: 380px;
+    display:block;
+    font-size: 14px;
+}
+.newdiv{
+    display: block;
+   margin-left: 60px;
+}
+
+
+@keyframes SlideInLeft{
+    from{
+         transform: translateX(-1200px);
+    }
+    to{
+         transform: translateX(0);
+    }
+ 
+}
+
+
+.SlideInLeft{
+    animation: SlideInLeft  3s  ease ;
+   
+   }
